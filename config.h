@@ -25,6 +25,7 @@
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 70
 
 
+
 #ifdef OLED_ENABLE
 #    define SPLIT_LAYER_STATE_ENABLE
 #    define SPLIT_LED_STATE_ENABLE
@@ -33,7 +34,6 @@
 #    define SPLIT_OLED_ENABLE
 #    define OLED_FONT_H "keyboards/crkbd/keymaps/soundmonster/glcdfont.c"
 #    define OLED_TIMEOUT 30000
-#    define OLED_BRIGHTNESS 200
-#    define OLED_FADE_OUT
-#    define OLED_FADE_OUT_INTERVAL 15
+#    define OLED_UPDATE_INTERVAL 10
+#    define OLED_BRIGHTNESS 150
 #endif 
