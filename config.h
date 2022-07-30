@@ -32,7 +32,6 @@
 #    define SPLIT_WPM_ENABLE
 #    define SPLIT_OLED_ENABLE
 #    define OLED_FONT_H "keyboards/crkbd/keymaps/soundmonster/glcdfont.c"
-#    define OLED_DISABLE_TIMEOUT
 #    define OLED_TIMEOUT 30000
 #    define OLED_BRIGHTNESS 200
 #    define OLED_FADE_OUT
